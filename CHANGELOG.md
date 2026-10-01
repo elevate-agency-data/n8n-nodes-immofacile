@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Replace the node and credential icons with the official Immofacile logo.
+
 ## 1.0.0
 
 - Initial release: 66 operations across 11 resources, built from the Immofacile API V2
