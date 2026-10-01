@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-immofacile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node N8N to interact with Immofacile",
   "license": "MIT",
   "homepage": "https://github.com/elevate-agency-data/n8n-nodes-immofacile",
