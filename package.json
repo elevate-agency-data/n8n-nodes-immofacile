@@ -1,0 +1,60 @@
+{
+  "name": "n8n-nodes-immofacile",
+  "version": "1.0.0",
+  "description": "Node N8N to interact with Immofacile",
+  "license": "MIT",
+  "homepage": "https://github.com/elevate-agency-data/n8n-nodes-immofacile",
+  "keywords": [
+    "n8n-community-node-package",
+    "immofacile",
+    "immofacile-node",
+    "immofacile-n8n",
+    "immofacile-n8n-node",
+    "immofacile-n8n-node-package",
+    "orisha",
+    "real-estate",
+    "crm"
+  ],
+  "author": {
+    "name": "elevate_agency",
+    "email": "conseil@elevate-agency.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elevate-agency-data/n8n-nodes-immofacile.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist",
+    "!dist/tsconfig.tsbuildinfo"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/ImmofacileApi.credentials.js",
+      "dist/credentials/ImmofacileClientCredentialsApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Immofacile/Immofacile.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^21.0.2",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

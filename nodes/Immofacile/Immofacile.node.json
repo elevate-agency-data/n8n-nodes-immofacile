@@ -1,0 +1,29 @@
+{
+	"node": "n8n-nodes-immofacile.Immofacile",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Immofacile"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://public.immo-facile.com/doc-api-v2/index.html#tag/Authentication/paths/~1api~1client~1token~1site/post"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://public.immo-facile.com/doc-api-v2/index.html#section/Welcome-to-the-Immofacile-API"
+			}
+		]
+	},
+	"alias": [
+		"immofacile",
+		"immo-facile",
+		"orisha",
+		"real estate",
+		"immobilier",
+		"crm",
+		"property",
+		"listing",
+		"lead"
+	]
+}
